@@ -61,8 +61,7 @@ Fixed mode with Lyric text
 |参数               |默认值      |描述|
 |:--------------------|:------------:|:----------|
 |id              |**require**   |歌曲ID / 歌单ID / 专辑ID / 搜索关键词|
-|server          |**require**   |platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`<br>音乐平台: `网易云`, `QQ音乐`, `酷狗`, `虾米`, `百度`
-|
+|server          |**require**   |platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`<br>音乐平台: `网易云`, `QQ音乐`, `酷狗`, `虾米`, `百度`|
 |type            |**require**   |`song`, `playlist`, `album`, `search`, `artist`|
 |auto            |options       |music link, support: `netease`, `tencent`, `xiami`|
 |fixed           |`false`       |enable fixed mode|
