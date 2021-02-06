@@ -2,32 +2,16 @@
 <img src="https://user-images.githubusercontent.com/2666735/30651452-58ae6c88-9deb-11e7-9e13-6beae3f6c54c.png" alt="Meting">
 </p>
 
-<p align="center">
-<a href="https://i-meto.com"><img alt="Author" src="https://img.shields.io/badge/Author-METO-blue.svg?style=flat-square"/></a>
-<a href="https://www.npmjs.com/package/meting"><img alt="Version" src="https://img.shields.io/npm/v/meting.svg?style=flat-square"/></a>
-<a href="https://travis-ci.org/metowolf/MetingJS"><img alt="Travis" src="https://img.shields.io/travis/metowolf/MetingJS.svg?style=flat-square"></a>
-<img alt="License" src="https://img.shields.io/npm/l/meting.svg?style=flat-square"/>
-</p>
-
-## Requirement
-
-https://github.com/MoePlayer/APlayer
-
-|Version|API Status|APlayer|
-|---|---|---|
-|1.2.x|Supported|[![](https://img.shields.io/badge/APlayer-^1.10.0-green.svg?longCache=true&style=for-the-badge)](https://github.com/MoePlayer/APlayer)|
-|2.0.x|Latest|[![](https://img.shields.io/badge/APlayer-^1.10.0-green.svg?longCache=true&style=for-the-badge)](https://github.com/MoePlayer/APlayer)|
-
 ## CDN
  - https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js
  - https://unpkg.com/meting@2.0.1/dist/Meting.min.js
 
-## Quick Start
+## 使用
 ```html
-<!-- require APlayer -->
+<!--  APlayer -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<!-- require MetingJS -->
+<!--  MetingJS -->
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
 <meting-js
@@ -72,12 +56,13 @@ for self-hosted media
 Fixed mode with Lyric text
 
 
-## Option
+## 配置
 
-|option               |default      |description|
+|参数               |默认值      |描述|
 |:--------------------|:------------:|:----------|
-|id              |**require**   |song id / playlist id / album id / search keyword|
-|server          |**require**   |music platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`|
+|id              |**require**   |歌曲ID / 歌单ID / 专辑ID / 搜索关键词|
+|server          |**require**   |platform: `netease`, `tencent`, `kugou`, `xiami`, `baidu`<br>音乐平台: `网易云`, `QQ音乐`, `酷狗`, `虾米`, `百度`
+|
 |type            |**require**   |`song`, `playlist`, `album`, `search`, `artist`|
 |auto            |options       |music link, support: `netease`, `tencent`, `xiami`|
 |fixed           |`false`       |enable fixed mode|
